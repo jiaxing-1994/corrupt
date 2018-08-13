@@ -177,7 +177,7 @@ export default {
         this.$route.meta.name = this.cueFrom;
         this.cueId = this.$route.query.id;
         this.cueDataGet();
-        
+
         // this.dataGet();
     },
     methods: {
@@ -272,7 +272,7 @@ export default {
                     }else if(this.cueFrom == '热点线索'){  //获取热点线索
 
                     }else if(this.cueFrom == '自行发现线索'){   //获取自行发现线索
-                        
+
                     }else if(this.cueFrom == '关注线索'){   //获取关注线索
                         this.isLoad = true;
                         this.axios({
@@ -534,7 +534,7 @@ export default {
                     }else if(this.cueFrom == '热点线索'){  //获取热点线索
 
                     }else if(this.cueFrom == '自行发现线索'){   //获取自行发现线索
-                        
+
                     }else if(this.cueFrom == '关注线索'){   //获取关注线索
                         this.isLoad = true;
                         this.axios({
@@ -906,7 +906,7 @@ export default {
             cursor: pointer;
         }
         .back-btn:hover{
-            color:#00a65a;
+            color:#3098ca;
         }
     }
     #nav{
@@ -918,7 +918,7 @@ export default {
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            color: #8ec795;
+            color: #62bfe3;
         }
         ul{
             height: 100%;
@@ -962,16 +962,16 @@ export default {
                 }
             }
             .followed{
-                border-color:#00a65a!important;
-                color: #00a65a;
+                border-color:#52a9e8!important;
+                color: #52a9e8;
             }
             .confirmReceived{
-                border-color:#00a65a!important;
-                color: #00a65a;
+                border-color:#52a9e8!important;
+                color: #52a9e8;
                 cursor: default;
             }
             .active{
-                color: #0a8f46;
+                color: #3098ca;
                 border-bottom: solid 2px #fff;
                 height: 80px;
             }
@@ -985,15 +985,15 @@ export default {
             width: 10%;
             vertical-align: top;
             text-align: center;
-            color: #00a65a;
+            color: #008dc4;
             margin-top: 15px;
             cursor: pointer;
         }
         .switch-btn:hover{
-            color:#a0cfbf;
+            color:#a7daef;
         }
         .switch-btn:active{
-            color:#04771d;
+            color:#0274a0;
         }
         .content-box{
             display: inline-block;

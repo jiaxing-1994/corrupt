@@ -7,7 +7,7 @@
                 <span v-show="textData!=''" v-html="textData"></span>
             </div>
             <div v-show="textData != ''" style="font-size: 12px;color: #696969;">{{time}}</div> -->
-            
+
             <div class="detail-item">
                 <span class="item-title">处理日期</span>
                 <span class="item-content">{{time}}</span>
@@ -164,7 +164,7 @@ export default {
                     width: 170px;
                     height: 50px;
                     border-radius: 5px;
-                    background: #00a65a;
+                    background: #0072a6;
                     line-height: 50px;
                     text-align: center;
                     padding: 0 5px;
@@ -172,7 +172,7 @@ export default {
                     cursor: pointer;
                 }
                 .push-btn:active{
-                    background: #099555;
+                    background: #096395;
                 }
                 span{
                     display: inline-block;
@@ -183,7 +183,7 @@ export default {
                     line-height: 30px;
                     text-align: center;
                     float: left;
-                    background: #c0ecaa;
+                    background:#aad1ec;
                 }
                 .item-content{
                     border: solid 1px #ddd;
@@ -220,7 +220,7 @@ export default {
                 height: 40px;
                 line-height: 40px;
                 text-align: center;
-                background: #c0ecaa;    
+                background: #c0ecaa;
                 color: #333;
             }
             .advise-content{
@@ -229,7 +229,7 @@ export default {
                 display: inline-block;
                 border: solid 1px #ddd;
                 max-width: 90%;
-                padding: 5px;    
+                padding: 5px;
                 word-break: break-all;
                 color: #666;
                 pre{
@@ -280,6 +280,6 @@ export default {
                 background: #059553;
             }
         }
-        
+
     }
 </style>

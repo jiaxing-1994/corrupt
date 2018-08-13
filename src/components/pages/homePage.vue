@@ -20,14 +20,6 @@
               <div class="right">{{internetClueTotal}}</div>
             </div>
             <div class="hover-item clearfix">
-              <div class="left"><i class="iconfont icon-ai62"></i>公益组织线索数量</div>
-              <div class="right">{{welfareCueTotal}}</div>
-            </div>
-            <div class="hover-item clearfix">
-              <div class="left"><i class="iconfont icon-remen"></i>热点线索数量</div>
-              <div class="right">{{heartCueTotal}}</div>
-            </div>
-            <div class="hover-item clearfix">
               <div class="left"><i class="fa fa-search-plus"></i>自行发现线索数量</div>
               <div class="right">{{selfCueTotal}}</div>
             </div>
@@ -80,7 +72,7 @@
       </el-col>
     </el-row>
     <el-row :gutter="20">
-      <el-col :lg="12" :sm="24">
+      <el-col :lg="24" :sm="24">
         <!--新闻-->
         <div class="text_box">
           <!--标题-->
@@ -104,30 +96,30 @@
           </ul>
         </div>
       </el-col>
-      <el-col :lg="12" :sm="24">
-        <!--知识库-->
-        <div class="text_box">
-          <!--标题-->
-          <div class="text_head">
-            <span>理论研究 | 法律法规</span>
-            <!--<router-link tag="span" to="/home/knowledge">更多>></router-link>-->
-            <span @click="clickMore('/home/knowledge?knowtype=1')">更多>></span>
-          </div>
-          <!--内容-->
-          <ul class="text_body" v-loading="knowLoading">
-            <li v-for="(item, index) in knowledgeData.slice(0,6)" :key="index">
-              <div class="text_title">
-                <p v-text="item.BT" @click="details('know',item.BH,item.SSLB)"></p>
-                <p>
-                  <span>来源: {{item.LY}}</span>
-                  <span>发布时间: {{item.FBSJ}}</span>
-                </p>
-              </div>
-              <div class="text_content" v-text="item.NR"></div>
-            </li>
-          </ul>
-        </div>
-      </el-col>
+      <!--<el-col :lg="12" :sm="24">-->
+        <!--&lt;!&ndash;知识库&ndash;&gt;-->
+        <!--<div class="text_box">-->
+          <!--&lt;!&ndash;标题&ndash;&gt;-->
+          <!--<div class="text_head">-->
+            <!--<span>理论研究 | 法律法规</span>-->
+            <!--&lt;!&ndash;<router-link tag="span" to="/home/knowledge">更多>></router-link>&ndash;&gt;-->
+            <!--<span @click="clickMore('/home/knowledge?knowtype=1')">更多>></span>-->
+          <!--</div>-->
+          <!--&lt;!&ndash;内容&ndash;&gt;-->
+          <!--<ul class="text_body" v-loading="knowLoading">-->
+            <!--<li v-for="(item, index) in knowledgeData.slice(0,6)" :key="index">-->
+              <!--<div class="text_title">-->
+                <!--<p v-text="item.BT" @click="details('know',item.BH,item.SSLB)"></p>-->
+                <!--<p>-->
+                  <!--<span>来源: {{item.LY}}</span>-->
+                  <!--<span>发布时间: {{item.FBSJ}}</span>-->
+                <!--</p>-->
+              <!--</div>-->
+              <!--<div class="text_content" v-text="item.NR"></div>-->
+            <!--</li>-->
+          <!--</ul>-->
+        <!--</div>-->
+      <!--</el-col>-->
     </el-row>
   </div>
 </template>
@@ -724,14 +716,14 @@
       overflow: hidden;
       color: white;
       font-size: 18px;
-      background: #48AE72;
+      background: #3065a3;
       span {
         padding: 10px 20px;
         vertical-align: center;
         &:first-child {
           position: relative;
           float: left;
-          background-color: #2B9759;
+          background-color: #1e4c83;
           &:after {
             position: absolute;
             right: -44px;
@@ -740,7 +732,7 @@
             width: 0;
             height: 0;
             border: 22px solid transparent;
-            border-left-color: #2B9759;
+            border-left-color: #1e4c83;
           }
         }
         &:last-child {
@@ -775,7 +767,9 @@
           p {
             /*标题*/
             &:first-child {
-              color: rgb(14, 158, 51);
+              color: #0d6edd;
+              display: inline-block;
+              margin-bottom: 0;
               &:hover {
                 text-decoration: underline;
                 cursor: pointer;

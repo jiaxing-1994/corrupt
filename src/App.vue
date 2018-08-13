@@ -12,7 +12,7 @@ export default {
     }
   },
   mounted(){
-    
+
   },
   methods:{
   }
@@ -94,7 +94,7 @@ button:active{
 
   .el-table th{
     color: #333333 !important;;
-    background: #C0ECAA !important;;
+    background: #aacbec !important;;
   }
 
   .el-table__body tr:nth-child(2n){
@@ -122,7 +122,8 @@ button:active{
     background: none !important;;
   }
   .el-table__fixed-right-patch{
-    background: #C0ECAA !important;;
+    background: #aacbec !important;;
+    height: 34px !important;
   }
   .el-table td, .el-table th.is-leaf{
     border: none !important;;

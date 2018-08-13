@@ -196,7 +196,7 @@ export default {
 <style lang="scss" scoped>
     #main{
         width: 100%;
-        padding: 20px;    
+        padding: 20px;
         padding-right: 0;
         padding-left: 0;
         .advise{
@@ -211,7 +211,7 @@ export default {
                 top: 10px;
                 left: 0;
                 background-color: #fff;
-                color: #c0ecaa;
+                color: #5cbde1;
                 font-size: 18px;
             }
             .timeline-icon:last-child:before{
@@ -225,7 +225,7 @@ export default {
                 height: 40px;
                 line-height: 40px;
                 text-align: center;
-                background: #c0ecaa;
+                background: #aad1ec;
                 color: #333;
             }
             .advise-content{
@@ -266,17 +266,17 @@ export default {
                 height: 30px;
                 text-align: center;
                 line-height: 30px;
-                background: #00a65a;
+                background: #0473a5;
                 border-radius: 5px;
                 color: #fff;
                 margin-top: 10px;
                 cursor: pointer;
             }
             #submit-btn:hover{
-                background: #0aba69;
+                background: #0983ba;
             }
             #submit-btn:active{
-                background: #059553;
+                background: #04648f;
             }
         }
         .advise:before{

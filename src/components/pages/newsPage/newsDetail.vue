@@ -91,24 +91,24 @@ export default {
       cursor: pointer;
     }
     .back-btn:hover{
-      color:#00a65a;
+      color:#0089bd;
     }
   }
   #news-content{
-    
+
     #news-name{
       text-align: center;
       font-size: 18px;
       height: 60px;
       line-height: 60px;
-      color: #00a65a;
+      color: #0089bd;
       position: relative;
       .back-btn{
         position: absolute;
         top: 50%;
-        left: 10px; 
+        left: 10px;
         margin-top: -10px;
-        color: #00a65a;
+        color: #0089bd;
         cursor: pointer;
       }
     }
@@ -123,7 +123,7 @@ export default {
       }
       .origin-address{
         float: right;
-        color: #00a65a;
+        color: #0089bd;
         cursor: pointer;
         text-decoration: underline;
       }

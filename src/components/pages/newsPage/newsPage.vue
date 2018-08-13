@@ -192,7 +192,7 @@ export default {
             position: relative;
             .item-title{
               font-size: 16px;
-              color: #00a65a;
+              color: #0089bd;
               margin-right: 20px;
             }
             .item-title:hover{

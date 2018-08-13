@@ -10,12 +10,12 @@
       <!--关注线索筛选-->
       <div class="follow_filter">
         <el-form class="follow_form" :inline="true" >
-        <el-form-item label="所属领域 :">
-          <el-select class="follow_select" v-model="xslb">
-            <el-option label="全部" value="" ></el-option>
-            <el-option v-for="(item,index) in typeList"  :key="index" :value="item">{{item}}</el-option>
-          </el-select>
-        </el-form-item>
+        <!--<el-form-item label="所属领域 :">-->
+          <!--<el-select class="follow_select" v-model="xslb">-->
+            <!--<el-option label="全部" value="" ></el-option>-->
+            <!--<el-option v-for="(item,index) in typeList"  :key="index" :value="item">{{item}}</el-option>-->
+          <!--</el-select>-->
+        <!--</el-form-item>-->
         <el-form-item label="是否办理 :">
           <el-select style="width: 90px;" v-model="sfbl">
             <el-option label="全部" value=""></el-option>
@@ -28,8 +28,8 @@
               <el-option label="全部" value=""></el-option>
               <el-option label="举报线索" value="1"></el-option>
               <el-option label="互联网线索" value="2"></el-option>
-              <el-option label="公益组织线索" value="3"></el-option>
-              <el-option label="热点线索" value="4"></el-option>
+              <!--<el-option label="公益组织线索" value="3"></el-option>-->
+              <!--<el-option label="热点线索" value="4"></el-option>-->
               <el-option label="自行发现线索" value="5"></el-option>
             </el-select>
           </el-form-item>

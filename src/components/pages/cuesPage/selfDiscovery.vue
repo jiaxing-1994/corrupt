@@ -36,7 +36,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="manage-icon">
           <i @click="addClue"  class="el-icon-circle-plus-outline"></i>
         </div>
@@ -342,7 +342,7 @@
         border: 1px solid #dcdcdc;
         position: relative;
         .manage-icon{
-          font-size: 30px;    
+          font-size: 30px;
           margin-right: 20px;
           position: absolute;
           right: 0;
@@ -516,8 +516,8 @@
       }
       .cue-list{
         margin-top: 24px;
-        height: calc( 100% - 314px);
-        max-height: calc( 100% - 314px);
+        height: calc( 100% - 170px);
+        max-height: calc( 100% - 170px);
         overflow-y: hidden;
         .isRead{
           color: #F66;

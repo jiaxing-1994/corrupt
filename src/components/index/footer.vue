@@ -13,7 +13,7 @@
 <style lang="scss" scoped>
   #footer{
     height: 40px;
-    background: #00a65a;
+    background: #1e4c83;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 40px;

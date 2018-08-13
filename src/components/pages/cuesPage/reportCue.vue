@@ -15,27 +15,27 @@
         </div>
       </div>
       <div class="main-body">
-        <div class="cue-types-wrap">
-          <div class="title-wrap">
-            <i class="iconfont icon-leibieguanli"></i>
-            <span>所属领域</span>
-          </div>
-          <div class="types-wrap clearfix">
-            <div v-for="(item ,index) in typeList" class="type-item" :class="{'type-item-on':type == item}" @click = "clueTypeOder(item)">
-              <div class="type-icon">
-                <i v-if="item == '食药安全'" class="iconfont icon-shipinshengchanqiye"></i>
-                <i v-else-if="item == '英烈保护'" class="iconfont icon-44"></i>
-                <i v-else-if="item == '国有财产'" class="iconfont icon-jinqian"></i>
-                <i v-else-if="item ==  '食品安全'" class="iconfont icon-shouyeshipin"></i>
-                <i v-else-if="item ==  '国土资源'" class="iconfont icon-diqiuyi"></i>
-                <i v-else-if="item ==  '环境保护'" class="iconfont icon-huanjingbaohu"></i>
-              </div>
-              <div class="type-name">
-                {{item}}
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--<div class="cue-types-wrap">-->
+          <!--<div class="title-wrap">-->
+            <!--<i class="iconfont icon-leibieguanli"></i>-->
+            <!--<span>所属领域</span>-->
+          <!--</div>-->
+          <!--<div class="types-wrap clearfix">-->
+            <!--<div v-for="(item ,index) in typeList" class="type-item" :class="{'type-item-on':type == item}" @click = "clueTypeOder(item)">-->
+              <!--<div class="type-icon">-->
+                <!--<i v-if="item == '食药安全'" class="iconfont icon-shipinshengchanqiye"></i>-->
+                <!--<i v-else-if="item == '英烈保护'" class="iconfont icon-44"></i>-->
+                <!--<i v-else-if="item == '国有财产'" class="iconfont icon-jinqian"></i>-->
+                <!--<i v-else-if="item ==  '食品安全'" class="iconfont icon-shouyeshipin"></i>-->
+                <!--<i v-else-if="item ==  '国土资源'" class="iconfont icon-diqiuyi"></i>-->
+                <!--<i v-else-if="item ==  '环境保护'" class="iconfont icon-huanjingbaohu"></i>-->
+              <!--</div>-->
+              <!--<div class="type-name">-->
+                <!--{{item}}-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
         <div class="cue-list" ref="cueList"  v-loading="isLoad">
           <el-table
              ref="oTable"
@@ -315,7 +315,6 @@
       line-height: 50px;
       background: #EEEEEE;
       border-bottom: 1px solid #dcdcdc;
-
       /*标题*/
       .title-wrap{
         float: left;
@@ -474,8 +473,8 @@
       }
       .cue-list{
         margin-top: 24px;
-        height: calc( 100% - 210px);
-        max-height: calc( 100% - 210px);
+        height: calc( 100% - 66px);
+        max-height: calc( 100% - 66px);
         overflow-y: hidden;
         .isRead{
           color: #F66;
@@ -569,8 +568,8 @@
           }
           .cue-list{
             margin-top: 16px;
-            height: calc( 100% - 174px);
-            max-height: calc( 100% - 174px);
+            height: calc( 100% - 58px);
+            max-height: calc( 100% - 58px);
             overflow-y: hidden;
           }
           .page-wrap{

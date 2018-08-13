@@ -97,7 +97,7 @@ export default {
           height: 100%;
           font-size: 16px;
           color: #333333;
-          border: 1px solid #11a967;
+          border: 1px solid #34495e;
         }
         .search-btn{
           float: left;
@@ -113,10 +113,10 @@ export default {
           user-select: none;
           color: #FFFFFF;
 
-          background: -webkit-linear-gradient(#1cd37d, #018d50); /* Safari 5.1 - 6.0 */
-          background: -o-linear-gradient(#1cd37d, #018d50); /* Opera 11.1 - 12.0 */
-          background: -moz-linear-gradient(#1cd37d, #018d50); /* Firefox 3.6 - 15 */
-          background: linear-gradient(#1cd37d, #018d50); /* 标准的语法 */
+          background: -webkit-linear-gradient(#0089bb, #013b8d); /* Safari 5.1 - 6.0 */
+          background: -o-linear-gradient(#0089bb, #013b8d); /* Opera 11.1 - 12.0 */
+          background: -moz-linear-gradient(#0089bb, #013b8d); /* Firefox 3.6 - 15 */
+          background: linear-gradient(#0089bb, #013b8d); /* 标准的语法 */
         }
       }
 

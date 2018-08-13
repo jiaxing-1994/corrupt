@@ -697,11 +697,11 @@ export default {
            }
          }
          .menu-item:hover{
-           background: rgba(41, 255, 24, 0.16);
+           background: rgba(6, 121, 174, 0.16);
          }
          .menu-item-on{
-           background: rgba(41, 255, 24, 0.16);
-           color: #3bcb00;
+           background: rgba(6, 121, 174, 0.16);
+           color: #0c9ad1;
          }
        }
        /*搜索框*/

@@ -186,7 +186,7 @@
   #header{
     max-height: 100px;
     .logo{
-      background-color: #00a65a;
+      background-color:#174a88;
       color: #fff;
       border-bottom: 0 solid transparent;
       -webkit-transition: all .3s ease-in-out;
@@ -208,10 +208,10 @@
       overflow: hidden;
     }
     .logo:hover{
-      background:#00a157;
+      background:#2762aa;
     }
     .navbar{
-      background: #00a65a;
+      background: #174a88;
       -webkit-transition: margin-left .3s ease-in-out;
       transition: margin-left .3s ease-in-out;
       margin-bottom: 0;
@@ -229,14 +229,14 @@
         transition: all .1s ease-in-out;
       }
       .menu-toggle:hover{
-        background:#008d4c;
+        background:#2762aa;
       }
       .navbar-right{
         height: 50px;
         float: right;
-        background: #00a65a;
+        background: #174a88;
         .navbar-menu{
-          background: #00a65a;
+          background:#174a88;
           padding: 0;
           .navbar-menu-item{
             height: 50px;
@@ -269,7 +269,7 @@
               z-index: 100;
               .up-box{
                 height: 150px;
-                background: #00a65a;
+                background: #2762aa;
                 text-align: center;
                 line-height: 150px;
                 padding-top: 35px;
@@ -319,7 +319,7 @@
           }
           .user-menu-on,
           .user-menu:hover{
-            background:#008d4c
+            background:#2762aa
           }
         }
       }

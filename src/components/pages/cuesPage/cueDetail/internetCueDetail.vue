@@ -38,7 +38,7 @@
                 <span v-html="cueData.JBNR"></span>
             </div>
         </div>
-        
+
         <div class="detail-item" v-show="TP.length > 0">
             <span class="item-title resource-box">图片内容</span>
             <span class="item-content resource-content">
@@ -101,7 +101,7 @@ export default {
           SP:[], //视频信息
           trackHead:{}, //事件跟踪头部
           trackData:[], //事件跟着内容
-          isLoad:false, //数据加载 
+          isLoad:false, //数据加载
         }
     },
     mounted(){
@@ -215,7 +215,7 @@ export default {
             line-height: 30px;
             text-align: center;
             float: left;
-            background-color: #c0ecaa;
+            background-color:#aad1ec;
         }
         .item-content{
             border: solid 1px #ddd;

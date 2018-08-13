@@ -2,8 +2,7 @@
   <div id="public_login">
     <!--<img src="./assets/login/login_box.png" alt="">-->
     <div class="login_head">
-      <p>检察机关</p>
-      <p>公益诉讼线索综合处理系统</p>
+      <p class="title">职务犯罪线索综合处理系统</p>
     </div>
     <div class="login-box-head">
       用户登录
@@ -143,22 +142,28 @@
       flex-direction:column;
       justify-content: center;
       color: #ffffff;
-      font-size: 44px;
+      font-size: 46px;
       height: 42%;
       -webkit-user-select: none;
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
       font-weight: 600;
+      .title{
+        letter-spacing: 0.2em;
+        padding-bottom: 30px;
+        background: url("../../assets/login/title-line.png") no-repeat center;
+        background-position-y: 72px;
+      }
     }
     .login-box-head{
-      margin: -56px auto 0;
+      margin: -62px auto 0;
        width: 600px;
-      height: 85px;
+      height: 100px;
       background: url("../../assets/login/login_box_head.png") no-repeat;
       background-size: 100% 100% ;
       color: #ffffff;
-      font-size: 20px;
+      font-size: 28px;
       line-height: 90px;
       font-weight: 800;
       text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
@@ -175,7 +180,7 @@
           float: left;
           height: 60px;
           width: 60px;
-          background: #4DB37A;
+          background: #3F5568;
           -webkit-border-radius: 5px 0 0 5px;
           -moz-border-radius: 5px 0 0 5px;
           border-radius: 5px 0 0 5px;
@@ -193,7 +198,7 @@
           -webkit-border-radius: 0 5px 5px 0;
           -moz-border-radius: 0 5px 5px 0;
           border-radius: 0 5px 5px 0;
-          border: 1px solid #4BB726;
+          border: 1px solid #3F5568;
           width: calc(100% - 60px);
         }
 
@@ -239,7 +244,7 @@
 
         .forget_pwd {
           float: right;
-          color: #84c59e;
+          color: #3F5568;
           font-size: 18px;
         }
 
@@ -251,7 +256,7 @@
         margin-top: 30px;
         font-size: 20px;
         color: #FFFFFF;
-        background: #43AF71;
+        background: #46627A;
         width: 100%;
         height: 60px;
         border: none;
@@ -261,10 +266,10 @@
         cursor: pointer;
       }
       .login-btn:hover{
-        background: #40b572;
+        background: #527491;
       }
       .login-btn:active{
-        background: #43a36c;
+        background: #527491;
       }
     }
 
@@ -310,12 +315,15 @@
   @media only screen and (max-width: 1600px) {
     #public_login {
       .login_head {
-        font-size: 30px;
+        font-size: 34px;
+        .title{
+          background-position-y: 52px;
+        }
       }
       .login-box-head{
-        margin: -42px auto 0;
+        margin: -45px auto 0;
         width: 440px;
-        height: 65px;
+        height: 75px;
         color: #ffffff;
         font-size: 18px;
         line-height: 70px;
@@ -362,7 +370,6 @@
 
           .forget_pwd {
             float: right;
-            color: #84c59e;
             font-size: 14px;
           }
 
@@ -377,10 +384,8 @@
           height: 40px;
         }
         .login-btn:hover{
-          background: #40b572;
         }
         .login-btn:active{
-          background: #43a36c;
         }
       }
 

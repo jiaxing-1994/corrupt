@@ -164,7 +164,7 @@ export default {
             line-height: 30px;
             text-align: center;
             float: left;
-            background: #c0ecaa;
+            background: #aad1ec;
         }
         .item-content{
             border: solid 1px #ddd;

@@ -247,7 +247,7 @@
         width: 490px;
         height: 320px;
         border-radius: 8px;
-        background-color: rgba(0,166,90,1);
+        background-color: rgba(0, 114, 166, 1);
         padding: 0 5px 5px 5px;
         .UAV_dialog_header {
           position: relative;
@@ -278,10 +278,10 @@
           font-size: 18px;
           font-weight: bold;
           .confirmBtn {
-            background-color:rgba(0,166,90,1);
+            background-color:rgba(0, 114, 166, 1);
             color:#fff;
             &:hover {
-              background-color: rgba(52, 177, 120, 0.83);
+              background-color: rgba(0, 114, 166, 0.83);
             }
           }
         }
@@ -373,11 +373,11 @@
             height: 50px;
             line-height: 50px;
             text-align: center;
-            background-color:  rgba(0,166,90,0.83);
+            background-color:  rgba(0, 114, 166, 0.83);
             color: #fff;
             &:hover {
               cursor: pointer;
-              background-color: rgba(52, 177, 120, 0.83);
+              background-color: rgba(0, 114, 166, 0.83);
             }
           }
         }
@@ -407,9 +407,9 @@
             }
           }
           .selectTheme {
-            border-bottom: 2px solid rgba(0,166,90,0.83);
+            border-bottom: 2px solid rgba(0, 114, 166, 0.83);
             &:hover {
-              border-bottom: 2px solid rgba(0,166,90,0.83);
+              border-bottom: 2px solid rgba(0, 114, 166, 0.83);
             }
           }
         }
@@ -426,7 +426,7 @@
         background-color: rgba(238,238,238,0.83);
         label {
           display: inline-block;
-          background-color: rgba(0,166,90,0.83);
+          background-color: rgba(0, 114, 166, 0.83);
           color: #fff;
           width: 150px;
           height: 50px;
@@ -434,7 +434,7 @@
           text-align: center;
           &:hover {
             cursor: pointer;
-            background-color: rgba(52, 177, 120, 0.83);
+            background-color: rgba(0, 114, 166, 0.83);
           }
         }
       }
