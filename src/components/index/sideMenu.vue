@@ -70,20 +70,6 @@
           </el-menu-item>
         </router-link>
 
-       <router-link to="/home/welfareCue">
-         <el-menu-item index="2-3" :class="isThisNav == '公益组织线索'?'is-actived':''" @click="switchNav('公益组织线索')">
-           <i class="iconfont icon-ai62"></i>
-           <span slot="title">公益组织线索</span>
-         </el-menu-item>
-       </router-link>
-
-        <router-link to="/home/heartCue">
-          <el-menu-item index="2-4" :class="isThisNav == '热点线索'?'is-actived':''" @click="switchNav('热点线索')">
-            <i class="iconfont icon-remen"></i>
-            <span slot="title">热点线索</span>
-          </el-menu-item>
-        </router-link>
-
         <router-link to="/home/selfDiscovery">
           <el-menu-item index="2-5" :class="isThisNav == '自行发现线索'?'is-actived':''" @click="switchNav('自行发现线索')">
             <i class="fa  fa-search-plus "></i>
@@ -115,7 +101,7 @@
       </el-menu-item>
     </router-link> -->
 
-    <el-submenu index = "5">
+    <!-- <el-submenu index = "5">
       <template slot="title">
         <i class="fa fa-leanpub"></i>
         <span slot="title">知识库</span>
@@ -137,7 +123,7 @@
         </router-link>
 
       </el-menu-item-group>
-    </el-submenu>
+    </el-submenu> -->
 
 
 
@@ -155,7 +141,7 @@
       </el-menu-item>
     </router-link>
 
-    <el-submenu index="6">
+    <!-- <el-submenu index="6">
       <template slot="title">
         <i class="fa fa-cubes"></i>
         <span slot="title">数据分析</span>
@@ -176,16 +162,16 @@
           </el-menu-item>
         </router-link>
 
-        <!-- <router-link to="/home/infoAnalysis">
+        <router-link to="/home/infoAnalysis">
           <el-menu-item index="6-3" :class="isThisNav == '信息分析'?'is-actived':''" @click="switchNav('信息分析')">
             <i class="fa fa-inbox"></i>
             <span slot="title">深圳环保数据分析</span>
           </el-menu-item>
-        </router-link> -->
+        </router-link>
 
 
       </el-menu-item-group>
-    </el-submenu>
+    </el-submenu> -->
     <!--<el-menu-item index="7">-->
       <!--<i class="el-icon-setting"></i>-->
       <!--<span slot="title">手动录入</span>-->

@@ -1,7 +1,7 @@
 <template>
   <div id="header"  class="clearfix">
       <a class="logo">
-        <b>公益诉讼线索综合处理系统</b>
+        <b>职务犯罪线索综合处理系统</b>
       </a>
       <nav class="navbar clearfix" >
         <!--<a href="#" class="menu-toggle">-->

@@ -12,10 +12,6 @@ import homePage from '../components/pages/homePage'
 import reportCue from '../components/pages/cuesPage/reportCue'
   //互联网线索
 import internetCue from '../components/pages/cuesPage/internetCue'
-  //公益线索
-import welfareCue from '../components/pages/cuesPage/welfareCue'
-  //热点线索
-import heartCue  from '../components/pages/cuesPage/heartCue'
   //自行發現綫索
 import selfDiscovery from '../components/pages/cuesPage/selfDiscovery'
 //关注线索
@@ -92,24 +88,6 @@ let router =  new Router({
           meta:{
             keepAlive: true,
             name:'互联网线索'
-          }
-        },
-        {
-          path:'welfareCue',
-          name:welfareCue,
-          component:welfareCue,
-          meta:{
-            keepAlive: true,
-            name:'公益组织线索'
-          }
-        },
-        {
-          path:'heartCue',
-          name:heartCue,
-          component:heartCue,
-          meta:{
-            keepAlive: true,
-            name:'热点线索'
           }
         },
         {
