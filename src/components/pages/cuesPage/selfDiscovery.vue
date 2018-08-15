@@ -14,9 +14,12 @@
           <i class="iconfont icon-sousuo"></i>
         </span>
       </div>
+      <div class="manage-icon">
+        <i @click="addClue"  class="el-icon-circle-plus-outline"></i>
+      </div>
     </div>
     <div class="main-body">
-      <div class="cue-types-wrap">
+      <!-- <div class="cue-types-wrap">
         <div class="title-wrap">
           <i class="iconfont icon-leibieguanli"></i>
           <span>所属领域</span>
@@ -37,10 +40,8 @@
           </div>
         </div>
 
-        <div class="manage-icon">
-          <i @click="addClue"  class="el-icon-circle-plus-outline"></i>
-        </div>
-      </div>
+      </div> -->
+      
       <div class="cue-filter-wrap">
         <div class="cue-source clearfix">
           <div class="left-title">
@@ -266,6 +267,17 @@
       line-height: 50px;
       background: #EEEEEE;
       border-bottom: 1px solid #dcdcdc;
+      .manage-icon{
+        font-size: 30px;
+        margin-right: 20px;
+        float: right;
+        &:hover {
+          cursor: pointer;
+        }
+        i {
+          color: green;
+        }
+      }
       /*标题*/
       .title-wrap{
         float: left;
@@ -341,19 +353,6 @@
       .cue-types-wrap{
         border: 1px solid #dcdcdc;
         position: relative;
-        .manage-icon{
-          font-size: 30px;
-          margin-right: 20px;
-          position: absolute;
-          right: 0;
-          top: 50%;
-          &:hover {
-            cursor: pointer;
-          }
-          i {
-            color: green;
-          }
-        }
         .title-wrap{
           background: #EEEEEE;
           padding-left: 20px;
