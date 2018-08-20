@@ -94,7 +94,8 @@
             if(data.code == 0){
               localStorage.setItem("token", data.data);
               that.$router.push({
-                path: '/home'
+                // path: '/home'
+                path: '/home/reportCue'
               });
             }else {
               that.$message({

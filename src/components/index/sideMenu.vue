@@ -1,11 +1,11 @@
 <template>
   <el-menu id="menu" class="el-menu-vertical-demo"  :default-openeds="openeds">
-    <router-link to="/home">
-      <el-menu-item index="1" :class="isThisNav == '主页'?'is-actived':''" @click="switchNav('主页')">
-        <i class="iconfont icon-zhuye"></i>
-        <span slot="title">系统主页</span>
-      </el-menu-item>
-    </router-link>
+    <!--<router-link to="/home">-->
+      <!--<el-menu-item index="1" :class="isThisNav == '主页'?'is-actived':''" @click="switchNav('主页')">-->
+        <!--<i class="iconfont icon-zhuye"></i>-->
+        <!--<span slot="title">系统主页</span>-->
+      <!--</el-menu-item>-->
+    <!--</router-link>-->
 
     <router-link to="/home/waitApproval" v-if="IdentityType==3?true:false">
       <el-menu-item index="7" :class="isThisNav == '待审批' ?'is-actived':''" @click="switchNav('待审批')">
@@ -87,12 +87,12 @@
     </router-link>
 
 
-    <router-link to="/home/news">
-      <el-menu-item index="4" :class="isThisNav == '新闻页' || isThisNav == '新闻页详情'?'is-actived':''" @click="switchNav('新闻页')">
-        <i class="iconfont icon-xiangji"></i>
-        <span slot="title">新闻聚合</span>
-      </el-menu-item>
-    </router-link>
+    <!--<router-link to="/home/news">-->
+      <!--<el-menu-item index="4" :class="isThisNav == '新闻页' || isThisNav == '新闻页详情'?'is-actived':''" @click="switchNav('新闻页')">-->
+        <!--<i class="iconfont icon-xiangji"></i>-->
+        <!--<span slot="title">新闻聚合</span>-->
+      <!--</el-menu-item>-->
+    <!--</router-link>-->
 
     <!-- <router-link to="/home/knowledge">
       <el-menu-item index="5" :class="isThisNav == '知识库' || isThisNav == '知识库详情'?'is-actived':''" @click="switchNav('知识库')">
